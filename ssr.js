@@ -121,6 +121,7 @@ window.ssrify = function(upgrade) {
   insertShadowStyles(clonedDoc, shadowStyleList);
   insertShadowRootRegistration(clonedDoc, upgrade);
 
-  openDocument(clonedDoc);
+  // openDocument(clonedDoc);
+  console.log(clonedDoc.outerHTML);
 
 };
